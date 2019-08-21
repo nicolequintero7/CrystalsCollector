@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <!-- <link rel="stylesheet" href="css.css"> -->
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="jumbotron" style="background-color: black; color: white;">
+            <div class="container">
+                <h1 class="text-center"><strong>Crystal Collector Game</strong></h1>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="card">
+                    <div class="card-header">
+                        Instructions
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">
+
+                            You will be given a random number at the start of the game.
+                            There are four crystals below. By clicking on a crystal you will add a specific amount of
+                            points to your total score.
+                            You win the game by matching your total score to random number, you lose the game if your
+                            total score goes above the random number.
+                            The value of each crystal is hidden from you until you click on it.
+                            Each time when the game starts, the game will change the values of each crystal.
+
+
+                        </h5>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-9">
+
+                <div class="card">
+                    <div class="card-header">
+                        Target Score
+                    </div>
+                    <div class="card-body">
+                        <h5 class text-center="card-title" id="targetScore"></h5>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+            <div class="row">
+                <div class="col-sm-9">
+                    <div class="card">
+                        <div class="card-header">
+                            Your Score
+                        </div>
+                        <div class="card-body">
+                            <h5 class text-center="card-title" id="yourScore"></h5>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+
+
+
+
+        <!--Crystals box-->
+        <!-- <div class="col-lg-6">-->
+        <div class="row">
+            <div class="col-lg-9">
+                <div class="card">
+                    <div class="card-header">
+                        <h3> Crystal Selections</h3>
+                    </div>
+                    <div class="card-body">
+                        <img src="assets/images/blueJewel.jpg" alt="Image" height="80" width="80" id="blue">
+                        <img src="assets/images/purpleJewel.jpg" alt="Image" height="80" width="80" id="purple">
+                        <img src="assets/images/pinkJewel.jpg" alt="Image" height="80" width="80" id="pink">
+                        <img src="assets/images/greenJewel.jpg" alt="Image" height="80" width="80" id="green">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-9">
+                <div class="card">
+                    <div class="card-header">
+                        Win Count
+                    </div>
+                    <div class="card-body">
+                        <h5 class text-center="card-title" id="winCount"></h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-9">
+                <div class="card">
+                    <div class="card-header">
+                        Loss Count
+                    </div>
+                    <div class="card-body">
+                        <h5 class text-center="card-title" id="lossCount"></h5>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+    <!---->
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="javascript.js" type="text/javascript"></script>
+
+
+
+</body>
+
+</html>
